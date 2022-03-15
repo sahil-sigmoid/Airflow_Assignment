@@ -6,7 +6,7 @@ from ques1 import write_csv
 from ques2 import create_weather_table
 
 default_args = {
-    "owner": "Satyaprakash",
+    "owner": "airflow",
     "depends_on_past": False,
     "start_date": datetime(2022, 3, 14),
     "email": ["airflow@airflow.com"],
